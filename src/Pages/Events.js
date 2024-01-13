@@ -41,7 +41,7 @@ const Events = () => {
               <div className="p-10 w-full h-full  flex flex-col max-sm:bg-background max-sm:p-5 max-sm:rounded-md items-start justify-center gap-3">
                 <div className=" ">
                   <ViewContainer
-                    src={d.img ? d.img : sample}
+                    src={d.Img ? d.Img : sample}
                     hash={d.hash ? d.hash : "L597hPy?0200?]x@Q-8|IoRPnNtR"}
                   />
                 </div>
