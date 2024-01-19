@@ -83,7 +83,8 @@ const Contact = () => {
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
-        <div className="">
+      </div>
+              <div className=" mt-10 max-sm:mt-2">
           <div className=" flex items-center justify-center max-sm:flex-col  gap-5">
             <p>For More Details Contact :</p>
             <div className="  flex items-center justify-center gap-5">
@@ -157,7 +158,6 @@ const Contact = () => {
             </div>
           </div>
         </div>
-      </div>
     </div>
   );
 };
