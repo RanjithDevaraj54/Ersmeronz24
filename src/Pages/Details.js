@@ -48,7 +48,7 @@ const Details = () => {
         {offer &&
           offer.map((o) => {
             return (
-              <div className="  text-left w-96 max-sm:w-full max-sm:hover:scale-0  hover:ring-1 hover:ring-primary hover:scale-110 transition-all  duration-500 ease-in-out   bg-background border flex flex-col gap-5 items-start p-5 py-10 justify-center border-secondary/50     rounded-md">
+              <div className="  text-left w-96 max-sm:w-full max-sm:hover:scale-1  hover:ring-1 hover:ring-primary hover:scale-110 transition-all  duration-500 ease-in-out   bg-background border flex flex-col gap-5 items-start p-5 py-10 justify-center border-secondary/50     rounded-md">
                 <p className=" text-primary ">{o.type}</p>
                 <div>
                   <p className=" text text-7xl max-sm:-ml-20 -ml-20 -mt-2 flex"><FaRupeeSign />{o.price}</p>
